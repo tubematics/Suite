@@ -1,0 +1,4 @@
+cherrypy
+requests
+paho-mqtt
+imutils

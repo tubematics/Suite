@@ -1,0 +1,28 @@
+# Screws applyai Vision plugin
+
+<div style="float:left;">
+<img src="./example_in.jpg" width="300" alt="Input image" >
+<img src="./example_out.jpg" width="300" alt="output image" >
+</div>
+
+## Description
+This applyai vision plugin searches for threads and heads of screws in a binary image and creates a list. It then proceeds to match the heads and threads which are then classified as screws. The position of the head, the length of screw found and the angle of rotation are stored.
+
+## Variables
+- The size of the head in pixels
+- Minimum length of gripable thread (shaft) of the screw
+
+## Returns
+- numpy Array listing detected objects
+  - plugin name (Screws)
+  - center of the head
+  - visible length of the shaft / thread
+  - angle in °
+
+## Further Information
+- [The applyai vision image processing software](../README.md)
+- [How to install applyai vision plugins](../plugin-installation.md)
+- [Standard applyai vision plugin API description](../plugin-standard-api.md)
+- [Authors](../Authors.md)
+- [License](../License.md)
+
