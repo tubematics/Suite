@@ -99,7 +99,7 @@ def main():
   appConfig = {'/':
       {
         'tools.staticdir.on': True,
-        'tools.staticdir.dir': cwd + "/../roboGUI/dist",
+        'tools.staticdir.dir': cwd + "/dist",
         'tools.staticdir.index': "index.html"
       },
       '/images':{
